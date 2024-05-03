@@ -10,7 +10,7 @@ st.set_page_config(layout="wide")
 st.title('GSC Data of Dishtv of last 3 Months')
 # Load the DataFrame from the downloaded CSV file
 # Using raw string
-df = pd.read_csv(r'C:\Users\HP\OneDrive\Desktop\Office\n-grams\search_analytics_data (1).csv', encoding='utf-8')
+df = pd.read_csv(r'n-grams/search_analytics_data (1).csv', encoding='utf-8')
 st.write(df)
 
 # Calculate the total clicks and ctr count for each word
